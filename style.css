@@ -1,0 +1,85 @@
+:root {
+    --colorbg: #D9D9D9;
+    --color1: #999DF2;
+    --font: 'Cairo',
+        sans-serif;
+    --fontcolor: #0D0D0D;
+    --color2: #031059;
+}
+
+
+body {
+
+    display: flex;
+    margin: 0%;
+    background-color: var(--colorbg);
+    justify-content: center;
+
+}
+
+.card1 {
+    display: flex;
+    background-color: var(--color1);
+    width: 100%;
+    height: 15vh;
+    align-content: flex-end;
+    justify-content: space-between;
+
+}
+
+#img {
+    margin: 1%;
+    border-radius: 50% 0 50% 0;
+    width: auto;
+    height: auto;
+    border: var(--color2) solid 1em;
+
+}
+
+#name {
+    text-align: center;
+    font-family: var(--font);
+    color: var(--fontcolor);
+    font-size: xx-large;
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+}
+
+
+#links {
+    overflow: hidden;
+    height: 100%;
+    width: 65%;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+ol {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+
+}
+
+ol a {
+    margin: 1%;
+}
+
+
+#child1 {
+    text-align: center;
+    font-size: small;
+}
+
+.info {
+    display: flex;
+}
