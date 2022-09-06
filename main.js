@@ -8,5 +8,4 @@ for (let i = 0; i < myLANG.length; i++) {
 }
 for (let j = 0; j < myLANG.length; j++) {
     document.getElementById(`pbar${j}`).style.width = `${myLANGp[j]}%`
-    document.getElementById(`pbar${j}`).style.animation = `bigger all 0.5s`
 }

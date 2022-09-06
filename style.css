@@ -151,13 +151,3 @@ ol a {
     height: 100%;
     z-index: 0;
 }
-
-@keyframes bigger {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 75%;
-    }
-}
