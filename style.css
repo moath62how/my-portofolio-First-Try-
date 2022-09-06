@@ -23,14 +23,14 @@ body {
 .section1 {
     display: block;
     width: 100%;
-    height: 15vh;
+    height: 23vh;
 }
 
 .card1 {
     display: flex;
     background-color: var(--color1);
     width: 100%;
-    height: 15vh;
+    height: 100%;
     align-content: flex-end;
     justify-content: space-between;
 
@@ -79,8 +79,11 @@ body {
 
 ol {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     height: 100%;
+    align-items: center;
+    align-content: flex-end;
+    flex-wrap: nowrap;
 
 }
 
@@ -88,11 +91,14 @@ ol a {
     margin: 1%;
 }
 
+i {
+    font-size: xx-large;
+}
 
 #child1 {
     display: block;
     text-align: center;
-    font-size: small;
+    font-size: large;
 }
 
 .info {
