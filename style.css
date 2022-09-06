@@ -194,6 +194,11 @@ i {
 
     .card3 {
         width: 75%;
+
+    }
+
+    #progress-bar {
+        width: 85%;
     }
 
 }
