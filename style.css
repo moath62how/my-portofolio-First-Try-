@@ -6,6 +6,7 @@
     --fontcolor: #0D0D0D;
     --color2: #031059;
     --color3: #adb0f4;
+    --color4: #eaebfc;
 }
 
 
@@ -166,4 +167,11 @@ i {
     width: 75%;
     height: 100%;
     z-index: 0;
+}
+
+.section3 {
+    margin-top: 13%;
+    background-color: var(--color4);
+    height: 50vh;
+    width: 100%;
 }
