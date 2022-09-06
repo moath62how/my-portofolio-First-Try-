@@ -125,12 +125,22 @@ ol a {
     font-weight: 600;
 }
 
+
+#bold_title {
+    font-weight: 600;
+    font-size: x-large;
+}
+
 #about {
-    padding: 7%;
+    padding: 4%;
+}
+
+#about p {
+    margin-bottom: 3%;
 }
 
 #skills {
-    padding: 7%;
+    padding: 4%;
 }
 
 #progress-bar {
