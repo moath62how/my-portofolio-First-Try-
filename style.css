@@ -136,12 +136,14 @@ ol a {
 #progress-bar {
     background-color: #f2ee99;
     width: 75%;
-    height: 2vh;
+    height: 4vh;
     margin: 1%;
 }
 
 #progress-bar span {
+    content: "";
     background-color: #9df299;
-    width: 75%;
+    width: 100vh;
     height: 100%;
+    z-index: 99999999999999999999999999999999999999999999999999999999999999;
 }
