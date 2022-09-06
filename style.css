@@ -99,9 +99,26 @@ ol a {
     display: flex;
 }
 
+.section2 {
+    display: flex;
+}
+
 .card2 {
     margin: 3%;
+    font-family: var(--font);
     background-color: var(--color3);
+    border-radius: 4%;
+    height: 55vh;
+    width: 45%;
+}
+
+.card3 {
+    font-family: var(--font);
+    margin: 3%;
+    background-color: var(--color3);
+    border-radius: 4%;
+    height: 55vh;
+    width: 45%;
 }
 
 #bold_A {
@@ -109,5 +126,9 @@ ol a {
 }
 
 #about {
+    padding: 7%;
+}
+
+#skills {
     padding: 7%;
 }
