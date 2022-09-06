@@ -32,7 +32,8 @@ body {
     border-radius: 50% 0 50% 0;
     width: auto;
     height: auto;
-    border: var(--color2) solid 1em;
+    border: var(--color2) solid 0.5rem;
+    margin: 5%;
 
 }
 
