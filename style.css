@@ -138,12 +138,16 @@ ol a {
     width: 75%;
     height: 4vh;
     margin: 1%;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
 }
 
 #progress-bar span {
+    position: relative;
     content: "";
     background-color: #9df299;
-    width: 100vh;
+    width: 75%;
     height: 100%;
-    z-index: 99999999999999999999999999999999999999999999999999999999999999;
+    z-index: 0;
 }
