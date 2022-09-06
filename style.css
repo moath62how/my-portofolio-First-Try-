@@ -100,5 +100,13 @@ ol a {
 
 .card2 {
     margin: 3%;
-    background-color: var(--color1);
+    background-color: var(--color1s);
+}
+
+#bold_A {
+    font-weight: 600;
+}
+
+#about {
+    padding: 7%;
 }
