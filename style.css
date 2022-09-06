@@ -188,4 +188,12 @@ i {
         align-items: center;
     }
 
+    .card2 {
+        width: 75%;
+    }
+
+    .card3 {
+        width: 75%;
+    }
+
 }
