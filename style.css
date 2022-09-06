@@ -14,10 +14,13 @@ body {
     margin: 0%;
     background-color: var(--colorbg);
     justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
 
 }
 
 .section1 {
+    display: block;
     width: 100%;
     height: 15vh;
 }
