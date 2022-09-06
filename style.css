@@ -97,3 +97,8 @@ ol a {
 .info {
     display: flex;
 }
+
+.card2 {
+    margin: 3%;
+    background-color: var(--color1);
+}
