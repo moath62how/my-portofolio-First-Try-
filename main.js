@@ -1,5 +1,1 @@
-var markup = `<div>
-
-
-
-</div>`
+var myLANG = ["javascript", "C++", "Python", "CSS", "HTML"]
