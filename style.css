@@ -108,7 +108,7 @@ ol a {
     font-family: var(--font);
     background-color: var(--color3);
     border-radius: 4%;
-    height: 55vh;
+    height: 60vh;
     width: 45%;
 }
 
@@ -117,7 +117,7 @@ ol a {
     margin: 3%;
     background-color: var(--color3);
     border-radius: 4%;
-    height: 55vh;
+    height: 60vh;
     width: 45%;
 }
 
