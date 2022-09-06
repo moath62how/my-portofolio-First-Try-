@@ -132,3 +132,10 @@ ol a {
 #skills {
     padding: 7%;
 }
+
+#progress-bar {
+    background-color: #f2999d;
+    width: 75%;
+    height: 2vh;
+    margin: 1%;
+}
