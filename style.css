@@ -187,11 +187,32 @@ i {
 }
 
 .section3 {
+    display: flex;
     margin-top: 13%;
     background-color: var(--color4);
     height: 50vh;
     width: 100%;
+    justify-content: center;
 }
+
+#titleS3 {
+    text-transform: uppercase;
+    border: 0.1rem solid var(--color1);
+    text-align: center;
+    width: 30.6vh;
+    height: 6.2vh;
+    margin: 1vh;
+    font-family: var(--font);
+    font-size: 1.5em;
+}
+
+#titleS3:hover {
+
+    transition: 0.2s ease-in;
+    color: var(--color2);
+    background-color: var(--color1);
+}
+
 
 @media (max-width:667px) {
     #img {
