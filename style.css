@@ -102,6 +102,13 @@ i {
     font-size: large;
 }
 
+#child2 {
+    display: block;
+    text-align: right;
+    font-size: 10pt;
+    width: fit-content;
+}
+
 .info {
     display: flex;
 }
