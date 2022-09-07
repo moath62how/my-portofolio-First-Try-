@@ -198,6 +198,18 @@ i {
         display: none
     }
 
+    #name {
+        margin: 1%;
+    }
+
+    #child1 {
+        font-size: 18pt;
+    }
+
+    #child2 {
+        font-size: 9pt;
+    }
+
     .section2 {
         display: flex;
         flex-direction: column;
