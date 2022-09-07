@@ -7,6 +7,7 @@
     --color2: #031059;
     --color3: #adb0f4;
     --color4: #eaebfc;
+    --color5: #353f7a;
 }
 
 
@@ -43,7 +44,7 @@ body {
     width: auto;
     height: auto;
     border: var(--color2) solid 0.5rem;
-    margin: 5%;
+    margin: 1.8%;
 
 }
 
@@ -59,7 +60,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    margin: 0 15%;
+    margin: 0 10%;
 }
 
 
@@ -101,16 +102,16 @@ i {
 
 #child1 {
     display: inline;
-    text-align: center;
-    font-size: 16pt;
+    font-size: 25pt;
     width: fit-content;
 
 }
 
 #child2 {
+    color: var(--color5);
     display: inline;
     text-align: left;
-    font-size: 10pt;
+    font-size: 13pt;
     width: fit-content;
     height: fit-content;
 }
