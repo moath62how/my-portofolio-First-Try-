@@ -198,6 +198,10 @@ i {
         display: none
     }
 
+    .info {
+        width: 65%;
+    }
+
     #name {
         margin: 1%;
     }
@@ -220,8 +224,6 @@ i {
     .card2 {
         width: 80%;
         height: 40vh;
-
-
     }
 
     .card3 {
