@@ -53,16 +53,19 @@ body {
     color: var(--fontcolor);
     font-size: xx-large;
     height: 100%;
-    width: auto;
+    width: fit-content;
     overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
+    margin: 0 15%;
 }
 
 
+
 #links {
+    display: inline;
     overflow: hidden;
     height: 100%;
     width: 65%;
@@ -97,20 +100,26 @@ i {
 }
 
 #child1 {
-    display: block;
+    display: inline;
     text-align: center;
-    font-size: large;
+    font-size: 16pt;
+    width: fit-content;
+
 }
 
 #child2 {
-    display: block;
-    text-align: right;
+    display: inline;
+    text-align: left;
     font-size: 10pt;
     width: fit-content;
+    height: fit-content;
 }
 
 .info {
     display: flex;
+    width: 45%;
+    justify-content: flex-start;
+    flex-direction: row;
 }
 
 .section2 {
