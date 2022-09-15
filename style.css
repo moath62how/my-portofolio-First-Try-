@@ -124,6 +124,7 @@ i {
 }
 
 .section2 {
+    position: relative;
     display: flex;
 }
 
@@ -134,7 +135,22 @@ i {
     border-radius: 4%;
     height: 60vh;
     width: 45%;
+    box-shadow: none;
+}
+
+.card2:hover {
+    position: relative;
     box-shadow: -10px 10px 8px var(--color1);
+    top: -10px;
+    right: -10px;
+}
+
+.card3:hover {
+    position: relative;
+    box-shadow: -10px 10px 8px var(--color1);
+    top: -10px;
+    right: -10px;
+    transition: all 1500ms;
 }
 
 .card3 {
@@ -144,7 +160,9 @@ i {
     border-radius: 4%;
     height: 60vh;
     width: 45%;
-    box-shadow: -10px 10px 8px var(--color1);
+    box-shadow: none;
+    transition: top 1500ms;
+    transition: right 1500ms;
 }
 
 #bold_A {
