@@ -134,6 +134,7 @@ i {
     border-radius: 4%;
     height: 60vh;
     width: 45%;
+    box-shadow: -10px 10px 8px var(--color1);
 }
 
 .card3 {
@@ -143,6 +144,7 @@ i {
     border-radius: 4%;
     height: 60vh;
     width: 45%;
+    box-shadow: -10px 10px 8px var(--color1);
 }
 
 #bold_A {

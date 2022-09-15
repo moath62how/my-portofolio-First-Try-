@@ -12,3 +12,4 @@ for (let j = 0; j < myLANG.length; j++) {
     document.getElementById(`pbar${j}`).style.overflow = "visible"
     // window.getComputedStyle(`pbar${j}`, `::after`).content = `${myLANG[j]}`
 }
+// if (element.style.section3.hovered === true) { console.log("works") }
